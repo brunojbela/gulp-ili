@@ -1,0 +1,21 @@
+{
+    "name": "brunojbela/gulp-ili",
+    "type": "typo3-cms-extension",
+    "description": "Gulp para Framework para Blogs 1.0.0",
+    "keywords": ["blog"],
+    "homepage": "https://github.com/brunojbela/gulp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Bela",
+            "email": "bruno.jbela@gmail.com",
+            "homepage": "http://brunojbela.com.br",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
+}

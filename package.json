@@ -1,0 +1,30 @@
+{
+  "name": "Blog",
+  "description": "Desenvolvimento de Blog",
+  "version": "1.0.0",
+  "title": "Blog",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.2.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "npm": "^5.7.1",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mestre SEO",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.9.5"
+  }
+}
