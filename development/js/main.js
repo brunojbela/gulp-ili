@@ -1,21 +1,14 @@
-jQuery(document).ready(function($) {
-	// fitVids.
-	$( '.entry-content' ).fitVids();
-
-	// Responsive wp_video_shortcode().
-	$( '.wp-video-shortcode' ).parent( 'div' ).css( 'width', 'auto' );
-
-	/**
-	 * Odin Core shortcodes
-	 */
-
-	// Tabs.
-	$( '.odin-tabs a' ).click(function(e) {
-		e.preventDefault();
-		$(this).tab( 'show' );
-	});
-
-	// Tooltip.
-	$( '.odin-tooltip' ).tooltip();
-
+// Lazy load
+$('.lazy-load').Lazy({
+    // your configuration goes here
+    scrollDirection: 'vertical',
+    effect: 'fadeIn',
+    visibleOnly: true,
+    onFinishedAll: function() {
+        if( !this.config("autoDestroy") )
+            this.destroy();
+    },
+    onError: function(element) {
+        console.log('error loading ' + element.data('src'));
+    }
 });
