@@ -1,7 +1,7 @@
 {
     "name": "brunojbela/gulp-ili",
     "type": "typo3-cms-extension",
-    "description": "Gulp para Framework para Blogs 1.0.0",
+    "description": "Gulp para Framework para Blogs 2.0.0",
     "keywords": ["blog"],
     "homepage": "https://github.com/brunojbela/gulp",
     "license": "MIT",
