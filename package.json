@@ -1,10 +1,22 @@
 {
-  "name": "Blog",
-  "description": "Desenvolvimento de Blog",
+  "name": "Projeto ili",
   "version": "1.0.0",
-  "title": "Blog",
+  "description": "",
   "main": "gulpfile.js",
-  "dependencies": {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Bruno J Bela",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
     "express": "^4.16.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
@@ -15,16 +27,13 @@
     "gulp-uglify": "^3.0.0",
     "imagemin-pngquant": "^5.0.1",
     "npm": "^5.7.1",
-    "vinyl-ftp": "^0.6.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Mestre SEO",
-  "license": "ISC",
-  "keywords": [],
-  "devDependencies": {
+    "shrinkwrap": "^0.4.0",
+    "vinyl-ftp": "^0.6.1",
     "gulp-jshint": "^2.1.0",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-php2html": "^1.0.1",
+    "gulp-webp": "^4.0.1"
   }
 }
